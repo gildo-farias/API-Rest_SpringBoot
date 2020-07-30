@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 public interface Controller<T> {	
 	
-	public List<?> listar();	
+	public List<T> listar();	
 	
 	public T buscar(@PathVariable(name = "id") Long id);	
 	

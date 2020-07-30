@@ -22,7 +22,7 @@ public class ClienteController implements Controller<Cliente> {
 
 	@GetMapping("/clientes")
 	@Override
-	public List<?> listar() {
+	public List<Cliente> listar() {
 		return repository.findAll();
 	}
 	
