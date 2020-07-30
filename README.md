@@ -5,7 +5,7 @@
 
 - Dados para testes de requisição:
 ```
-    *** /Livro ***
+    /livro 
 {
     "isbn": "123ASD5487Q987",
     "genero": "FANTASIA",
@@ -15,7 +15,7 @@
     "ano": 2005,      
     "locado": false         
 }
-    *** /Cliente ***
+    /cliente
 {
     "cpf": "58797849720",  
     "nome": "BRUNO",
