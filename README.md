@@ -1,7 +1,7 @@
 # API-Rest Back-end(Biblioteca)
 
     API Rest usando SpringBoot, SpringBootDevTools, SpringMVC, SpringJPA Hibernate(PostgreSQL).
-    * NOTA: Front-end ainda não acessando a este back-end, por enquanto usando apenas o [POSTMAN](https://www.postman.com/downloads/) para fazer os testes desta API Rest.
+- **NOTA:** Front-end ainda não acessando a este back-end, por enquanto usando apenas o [POSTMAN](https://www.postman.com/downloads/) para fazer os testes desta API Rest.
     
 ## Front-end
  [Biblioteca Angular](https://github.com/gildo-farias/Angular_NodeJS). 
