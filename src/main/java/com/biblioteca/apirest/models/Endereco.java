@@ -1,5 +1,8 @@
 package com.biblioteca.apirest.models;
 
+import javax.persistence.Embeddable;
+
+@Embeddable
 public class Endereco {
 	private String cep;
 	private String logradouro;    
@@ -51,6 +54,8 @@ public class Endereco {
 	public void setUf(String uf) {
 		this.uf = uf;
 	}
+	
+	
 	
 	
 

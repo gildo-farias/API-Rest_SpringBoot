@@ -2,6 +2,7 @@ package com.biblioteca.apirest.models;
 
 import java.math.BigDecimal;
 
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -20,6 +21,9 @@ public class Cliente {
 	private String telefone;	
 	private BigDecimal debito;
 	private boolean status;	
+	@Embedded
+	private Endereco endereco;
+	
 	
 	public Long getId() {
 		return id;
@@ -63,12 +67,20 @@ public class Cliente {
 	public void setDebito(BigDecimal debito) {
 		this.debito = debito;
 	}
-	public boolean isStatus() {
+	public boolean getStatus() {
 		return status;
 	}
 	public void setStatus(boolean status) {
 		this.status = status;
 	}
+	public Endereco getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
+	
+	
 	
 	
 	
