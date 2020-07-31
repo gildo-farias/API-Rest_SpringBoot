@@ -14,9 +14,10 @@ public class Cliente {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String nome;
-	private String snome;
 	private String cpf;
+	private String foto;
+	private String nome;
+	private String snome;	
 	private String email;
 	private String telefone;	
 	private BigDecimal debito;
@@ -24,12 +25,23 @@ public class Cliente {
 	@Embedded
 	private Endereco endereco;
 	
-	
 	public Long getId() {
 		return id;
 	}
 	public void setId(Long id) {		
 		this.id = id;
+	}
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	public String getFoto() {
+		return foto;
+	}
+	public void setFoto(String foto) {
+		this.foto = foto;
 	}
 	public String getNome() {
 		return nome;
@@ -42,13 +54,7 @@ public class Cliente {
 	}
 	public void setSnome(String snome) {
 		this.snome = snome;
-	}
-	public String getCpf() {
-		return cpf;
-	}
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
+	}	
 	public String getEmail() {
 		return email;
 	}
@@ -79,9 +85,6 @@ public class Cliente {
 	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
 	}
-	
-	
-	
 	
 	
 }

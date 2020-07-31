@@ -18,6 +18,7 @@ public class Livro {
 	private String autor;
 	private int ano;    
 	private boolean locado;
+	private String capa; 
 	
 	public Long getId() {
 		return id;
@@ -67,4 +68,11 @@ public class Livro {
 	public void setLocado(boolean locado) {
 		this.locado = locado;
 	}
+	public String getCapa() {
+		return capa;
+	}
+	public void setCapa(String capa) {
+		this.capa = capa;
+	}
+	
 }
