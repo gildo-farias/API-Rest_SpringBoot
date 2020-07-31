@@ -16,7 +16,7 @@ import com.biblioteca.apirest.repository.LivroRepository;
 @RestController
 @RequestMapping(value = "/api")
 public class LivroController implements Controller<Livro> {
-	
+		
 	@Autowired
 	private LivroRepository repository;
 	
@@ -44,10 +44,10 @@ public class LivroController implements Controller<Livro> {
 		return repository.save(object);
 	}
 	
-	@DeleteMapping("/livro")
+	@DeleteMapping("/livro/{id}")
 	@Override
-	public void deletar(Livro object) {
-		repository.delete(object);
+	public void deletar(Long id) {
+		repository.deleteById(id);
 	}
 	
 	

@@ -44,10 +44,10 @@ public class ClienteController implements Controller<Cliente> {
 		return repository.save(cliente);
 	}
 
-	@DeleteMapping("/cliente")
+	@DeleteMapping("/cliente/{id}")
 	@Override
-	public void deletar(Cliente cliente) {
-		repository.delete(cliente);
+	public void deletar(Long id) {
+		repository.deleteById(id);
 	}
 
 	

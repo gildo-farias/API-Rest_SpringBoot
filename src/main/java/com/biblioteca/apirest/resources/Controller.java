@@ -14,6 +14,6 @@ public interface Controller<T> {
 	
 	public T alterar(@RequestBody T object);	
 	
-	public void deletar(@RequestBody T object);
+	public void deletar(@PathVariable(name = "id") Long id);
 
 }
