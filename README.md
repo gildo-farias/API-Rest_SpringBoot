@@ -1,8 +1,8 @@
-# API Rest Back-end(Biblioteca)
+# API Rest Backend(Biblioteca)
 
     API Rest usando SpringBoot, SpringBootDevTools, SpringMVC, SpringJPA Hibernate(PostgreSQL).
 
-## Front-end
+## Frontend
  [Biblioteca Angular](https://github.com/gildo-farias/Angular_NodeJS). 
     
 ## Prerequisites
