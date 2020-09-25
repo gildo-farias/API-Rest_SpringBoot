@@ -15,7 +15,7 @@
  3. Run Application `ApirestApplication`.
  
 ## Base de Dados (PostgreSQL)
-    - PORTA = 5432 
-    - DATABASE = BibliotecaDB    
-    - USERNAME = postgres
-    - PASSWORD = 123456
+- PORTA = 5432 
+- DATABASE = BibliotecaDB    
+- USERNAME = postgres
+- PASSWORD = 123456
